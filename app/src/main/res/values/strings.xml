@@ -1,3 +1,27 @@
 <resources>
     <string name="app_name">Hearth</string>
+    <string name="rooms_label">Rooms</string>
+    <string name="profile">Profile</string>
+    <string name="open_rooms">Rooms</string>
+    <string name="back">Back</string>
+    <string name="send">Send</string>
+    <string name="jump_to_latest">Latest messages</string>
+    <string name="member_count">%1$d people</string>
+    <string name="message_hint">Message %1$s</string>
+    <string name="sync_live">Live</string>
+    <string name="sync_local">Local</string>
+    <string name="firebase_banner">Local preview. Add %1$s and rebuild to sync.</string>
+    <string name="empty_room">No messages in %1$s yet.</string>
+    <string name="empty_room_live">Send one and it is stored in Cloud Firestore.</string>
+    <string name="empty_room_local">Messages stay on this phone until Firebase is connected.</string>
+    <string name="no_messages_yet">No messages yet</string>
+    <string name="drawer_live">Synced with Cloud Firestore</string>
+    <string name="drawer_local">Add %1$s to sync</string>
+    <string name="display_name">Name</string>
+    <string name="display_name_help">People see this name on messages you send.</string>
+    <string name="save_name">Save name</string>
+    <string name="firebase_title">Firebase</string>
+    <string name="firebase_missing">Not connected. Download google-services.json from your own Firebase project, place it at the path below, and rebuild. This app does not ship a Firebase project.</string>
+    <string name="firebase_connected">Connected. The open room listens to Cloud Firestore, and a send writes a new message there.</string>
+    <string name="firebase_package">Android package name: %1$s</string>
 </resources>
