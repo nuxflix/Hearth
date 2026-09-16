@@ -1,6 +1,6 @@
 # Hearth
 
-Hearth is a small-room chat app for Android, built with Jetpack Compose. A phone opens rooms from the top bar. A wide window keeps the room list beside the conversation. The profile is where you set the name on messages you send.
+Hearth is a mobile chatting app for Android, built with Jetpack Compose. A phone opens rooms from the top bar. A wide window keeps the room list beside the conversation. The profile is where you set the name on messages you send.
 
 The screen structure follows the [Jetchat](https://github.com/android/compose-samples/tree/main/Jetchat) sample: a conversation, a drawer of rooms, and a profile. Jetchat ships a fixed script of messages. Hearth writes each message to Cloud Firestore once you add your own Firebase config.
 
